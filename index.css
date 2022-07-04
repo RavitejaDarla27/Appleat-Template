@@ -1,0 +1,356 @@
+* {
+    box-sizing: border-box;
+    -webkit-tap-highlight-color: transparent;
+}
+
+
+#home {
+    /* background-color: aqua; */
+    background-image: url(images/white\ wall.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.logo {
+    padding: 5px 10px;
+    float: left;
+    font-weight: bold;
+    color:  rgb(255, 183, 43);
+}
+
+/* .nav-list {
+    float: right;
+    display: flex;
+    list-style: none;
+    padding: 0;
+}
+
+.nav-list li {
+    padding: 5px 10px;
+}
+
+.nav-list li a {
+    text-decoration: none;
+    color: black;
+} */
+
+.clear {
+    clear: both;
+}
+
+.slogan {
+    height: 90vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.slogan h1{
+    color: black;
+    font-family: 'Dancing Script', cursive;
+    font-weight: bolder;
+    font-size: xxx-large;
+}
+
+.slogan p {
+    font-family: 'Dancing Script', cursive;
+    font-size: x-large;
+    font-weight: bold;
+}
+
+.slogan button {
+    background: transparent;
+    border: 2px solid rgb(255, 183, 43);
+    border-radius: 30px;
+    padding: 8px 20px;
+}
+
+.slogan button:hover {
+    background: rgb(255, 183, 43);
+    transition-duration: 1.4s;
+}
+
+#aboutus {
+    /* height: 50vh; */
+    border: 1px solid transparent;
+}
+
+.first-box {
+    margin: 50px 0;
+    /* border: 1px solid; */
+    text-align: center;
+}
+
+.right-side-box big {
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.right-side-box  {
+    margin: 10px 0;
+}
+
+.left-side-box {
+    margin: 0px 0;
+    padding: 0 25px;
+}
+
+.name-of-percnt {
+    margin: 25px 0;
+}
+
+.persent100 {
+    width: 100%;
+    height: 10px;
+    background: lightgray;
+    position: relative;
+}
+
+.persent95{
+    background: rgb(255, 183, 43);
+    width: 95%;
+    height: 10px;
+}
+.persent75{
+    background: rgb(255, 183, 43);
+    width: 75%;
+    height: 10px;
+}
+.persent55{
+    background: rgb(255, 183, 43);
+    width: 55%;
+    height: 10px;
+}
+
+.talkbubble-95,
+.talkbubble-75,
+.talkbubble-55 {
+    background-color: black;
+    color: white;
+    max-width: 40px;
+    max-height: 40px;
+    border-radius: 5px;
+    padding: 5px;
+}
+.talkbubble-95{
+    position: absolute;
+    left: 93%;
+    bottom: 12px;
+}
+
+.talkbubble-75 {
+    position: absolute;
+    left: 73%;
+    bottom: 12px;
+}
+
+.talkbubble-55 {
+    position: absolute;
+    left: 53%;
+    bottom: 12px;
+}
+
+.subscribe-sec {
+    background: rgb(255, 183, 43);
+    /* height: 25vh; */
+    padding: 50px;
+}
+
+.subscribe-sec h2 {
+    text-align: center;
+}
+
+.subscribe-sec input {
+    background: rgb(235, 212, 167);
+    border: none;
+}
+
+.subscribe-sec form {
+    margin: 30px 0;
+}
+
+.subscribe-sec input {
+    width: 100%;
+    padding: 10px 10px;   
+}
+.form-iteam {
+    padding-bottom: 5px
+}
+.ourteam-sec {
+    background: hsl(180, 7%, 19%);
+    color: hsl(0, 0%, 94%);
+    padding: 50px 0;
+}
+
+.ourteam-sec, h2 p {
+    text-align: center;
+}
+
+.team {
+    margin: auto;
+}
+
+.porfile {
+    /* border: 1px solid rgb(255, 183, 43); */
+    text-align: center;
+    margin: 10px auto;
+    padding: 10px 10px;
+}
+
+.candiate-img {
+    margin: auto;
+    margin-bottom: 5px;
+    padding: 10px;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-image: url(images/male-user-100.png);
+    background-repeat: no-repeat;
+    background-size: cover;   
+
+}
+
+.porfile, big, article {
+    margin: 5px 0;
+}
+
+.porfile button {
+    margin-top: 5px;
+    padding: 2px 20px;
+    border: 1px solid rgb(255, 183, 43);
+    background-color: rgb(255, 183, 43);
+    color: hsl(0, 0%, 94%);
+    border-radius: 5px;
+}
+
+
+#portfolio {
+    padding: 50px;
+}
+
+.portfolio-about {
+    /* border: 1px solid black; */
+    text-align: center;
+}
+.categories ul {
+    padding: 0;
+}
+
+.categories-list li{
+    border: 1px solid rgb(255, 183, 43);
+    list-style: none;
+    text-align: center;
+    border-radius: 4px;
+    margin-bottom: 5px;
+    padding: 5px; 
+}
+
+.categories ul li:hover {
+    background: rgb(255, 183, 43);
+    transition-duration: 0.4s;
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.box {
+    height: 300px;
+    padding: 0;
+    position: relative;
+}
+
+.box .img {
+    min-width: 200px;
+    height: 300px;
+    background: rgba(0, 0, 0, 0.582);
+    border-radius: 6px;
+}
+
+.discription {
+    width: 100%;
+    background: hsla(210, 10%, 23%, 0.692);
+    border-radius: 6px;
+    color: hsl(198, 20%, 90%);
+    padding: 5px;
+    position: absolute;
+    bottom: 0;
+}
+
+.discription p {
+    margin: 0;
+}
+
+
+#contact {
+    background: hsl(180, 7%, 19%);
+    color: hsl(0, 0%, 94%);
+    /* height: 80vh; */
+    padding: 50px 0;
+}
+
+.contact-about {
+    text-align: center;
+    /* border: 1px solid;*/
+}
+
+.form {
+    width: 80%;
+    margin: auto;
+    /* border: 1px solid;*/
+    text-align: center;
+    padding: 30px;
+}
+
+.form input, textarea{
+    /* width: 80%; */
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+    resize: vertical;
+}
+
+.form button {
+    border: 2px solid rgb(255, 183, 43);
+    color: hsl(0, 0%, 94%);
+    background: transparent;
+    border-radius: 30px;
+    padding: 8px 20px;
+}
+
+.form form button:hover {
+    background: rgb(255, 183, 43);
+    color: black;
+    transition-duration: 1s;
+    cursor: pointer;
+}
+
+.bottom-nav-list {
+    padding: 20px 0;
+    margin: 0;
+    justify-content: space-around;
+    align-content: space-around;
+}
+
+.bottom-nav-list li {
+    list-style: none;
+    padding: 5px;
+    
+}
+
+.bottom-nav-list li a {
+    text-decoration: none;
+    color: hsl(0, 0%, 94%);
+}
+
+.bottom-nav-list li a:hover {
+    padding: 5px 10px;
+    background: rgb(255, 183, 43);
+    color: black;
+    /* transition-duration: .4s;*/
+    border-radius: 4px;
+}
+
+.copyright {
+    text-align: center;
+}
